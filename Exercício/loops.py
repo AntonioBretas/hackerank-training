@@ -3,6 +3,6 @@ if __name__ == '__main__':
 i = 0
 
 while i>=0 and i<n:
-    print(i**2)
+    print(f"{i**2}")
     i=i+1
 

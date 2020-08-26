@@ -3,4 +3,4 @@ if __name__ == '__main__':
     arr = list(map(int, input().split()))
     result = list(set(arr)) #set remove valores duplicados
     result.remove(max(result)) #remove o maior valor
-    print(max(result))
+    print(f"{max(result)}")

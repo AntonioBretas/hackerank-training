@@ -13,10 +13,10 @@ n1 = n%2
 
 if n1==0:
     if n>=2 and n<=5:
-        print("Not Weird")
+        print(f"Not Weird")
     elif n>=6 and n<=20:
-        print("Weird")
+        print(f"Weird")
     elif n>20:
-        print("Not Weird")
+        print(f"Not Weird")
 else:
-    print("Weird")
+    print(f"Weird")

@@ -4,4 +4,6 @@ if __name__ == '__main__':
 x = range (1, n+1)
 
 for i in x:
-    print (i,end="")
+    print (f'{i}',end="")
+    # end="" faz todos valores sairem na mesma linha
+    # end="" não funciona dentro da f-string
