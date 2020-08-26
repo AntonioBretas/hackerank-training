@@ -8,10 +8,11 @@ import sys
 
 if __name__ == '__main__':
     n = int(input().strip())
+    # .strip() remove espaços em brando a direita e esquerda
 
-n1 = n%2
+n1 = n%2 # % resto de divisão
 
-if n1==0:
+if n1==0:  # caso o resto da divisão por 2 seja 0 o número é par
     if n>=2 and n<=5:
         print(f"Not Weird")
     elif n>=6 and n<=20:

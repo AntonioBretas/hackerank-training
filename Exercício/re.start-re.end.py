@@ -7,4 +7,7 @@ if not m:
 while m:
     print (f"{(m.start(), m.end()-1)}")
     #print ("({0}, {1})".format(m.start(), m.end()-1))
+    #print ((m.start(), m.end()-1))
     m = k.search(s,m.start()+1)
+#m.start retorna o primeiro valor dentro de m
+#m.end retorna o último valor dentro de m
